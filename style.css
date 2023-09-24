@@ -1,17 +1,19 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: #1c1a1a;
   line-height: 1.5;
   text-align: justify;
   margin: 0;
 }
-section{padding:50px 15%}
+section {
+  padding: 50px 15%;
+}
 .Mojefoto {
   width: 15%;
   float: left;
   border-radius: 20px;
-  margin-left:15%;
+  margin-left: 15%;
   margin-right: 30px;
   margin-bottom: 10px;
 }
@@ -21,25 +23,52 @@ section{padding:50px 15%}
 .dovednosti,
 .paticka {
   background-color: #faedcd;
- 
 }
 
 .vzdelani,
 .dalsi_vzdelavani,
 .zajmy {
   background-color: #fefae0;
-
 }
 
 .hlavicka h1 {
+  color: rgb(226, 146, 67);
+  font-weight: 900;
   text-align: center;
-  margin-top:0; padding-top:20px; padding-bottom:20px;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.text_hlavicky {padding-top:0}
-.paticka {padding:20px 0;
-text-align:center; margin:0
+.text_hlavicky {
+  padding-top: 0;
 }
-h1, h2, h3
-{font-style: italic;
-  font-weight:700;}
-li{padding:10px 0}
+.text_hlavicky a {
+  text-decoration: none;
+}
+.text_hlavicky a:hover,
+.text_hlavicky a:focus,
+.text_hlavicky a:active,
+.text_hlavicky a:visited {
+  color: purple;
+}
+.paticka {
+  padding: 20px 0;
+  text-align: center;
+  margin: 0;
+}
+h2,
+h3 {
+  font-style: italic;
+  font-weight: 900;
+}
+li {
+  padding: 10px 0;
+}
+li {
+  list-style-type: square;
+}
+.paticka img {
+  width: 35px;
+  display: inline-block;
+  padding: 20px 30px;
+}
