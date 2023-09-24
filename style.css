@@ -1,26 +1,45 @@
-.body {
+body {
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
+  color: #1c1a1a;
   line-height: 1.5;
   text-align: justify;
   margin: 0;
 }
-
+section{padding:50px 15%}
 .Mojefoto {
-  width: 10%;
+  width: 15%;
   float: left;
   border-radius: 20px;
-  margin-right:30px;
-  margin-bottom:30px
+  margin-left:15%;
+  margin-right: 30px;
+  margin-bottom: 10px;
 }
+
 .hlavicka,
 .pracovni_zkusenosti,
 .dovednosti,
 .paticka {
   background-color: #faedcd;
+ 
 }
+
 .vzdelani,
 .dalsi_vzdelavani,
 .zajmy {
   background-color: #fefae0;
+
 }
-.hlavicka h1{text-align:center}
+
+.hlavicka h1 {
+  text-align: center;
+  margin-top:0; padding-top:20px; padding-bottom:20px;
+}
+.text_hlavicky {padding-top:0}
+.paticka {padding:20px 0;
+text-align:center; margin:0
+}
+h1, h2, h3
+{font-style: italic;
+  font-weight:700;}
+li{padding:10px 0}
