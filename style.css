@@ -9,7 +9,7 @@ body {
 section {
   padding: 50px 15%;
 }
-.Mojefoto {
+.moje_foto {
   width: 15%;
   float: left;
   border-radius: 20px;
@@ -36,8 +36,8 @@ section {
   font-weight: 900;
   text-align: center;
   margin-top: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .text_hlavicky {
   padding-top: 0;
